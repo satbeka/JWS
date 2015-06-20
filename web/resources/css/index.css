@@ -1,0 +1,358 @@
+/** Add css rules here for your application. */
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+body, td, a, div, .p {
+    font-family: arial, sans-serif
+}
+
+span[class^='skype_pnh_container'] {
+    display: none !important;
+}
+
+span[class^='skype_pnh_print_container'] {
+    display: inline !important;
+}
+
+/*
+body, td, a, div, .p {
+    font-family: "Times New Roman"
+}
+*/
+.BvBigButton-Label {
+    color: #15428b;
+    cursor: default;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 1px;
+    /*border: 3px darkslateblue solid; /* стили рамки */
+    /* border-radius: 10px; /* закругление углов для всех, кто понимает */
+}
+
+.BvStartbutton,
+.BvStartbuttonOver,
+.BvStartbuttonFocused,
+.BvStartbuttonFocusedOver,
+.BvStartbuttonDown,
+.BvStartbuttonFocusedDown,
+.BvStartbuttonSelected,
+.BvStartbuttonSelectedFocused,
+.BvStartbuttonSelectedDown,
+.BvStartbuttonSelectedFocusedDown,
+.BvStartbuttonSelectedOver,
+.BvStartbuttonSelectedFocusedOver,
+.BvStartbuttonDisabled,
+.BvStartbuttonSelectedDisabled {
+    background-color: #f0f0f0;
+    background-image: url("./images/cssButton/button_stretch.png");
+    background-repeat: repeat-x;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2UwZTBlMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #e0e0e0));
+    background-image: -webkit-linear-gradient(top, #ffffff 0%, #e0e0e0 100%);
+    background-image: -moz-linear-gradient(top, #ffffff 0%, #e0e0e0 100%);
+    background-image: -o-linear-gradient(top, #ffffff 0%, #e0e0e0 100%);
+    background-image: linear-gradient(top, #ffffff 0%, #e0e0e0 100%);
+    border: 2px solid #ababab;
+    color: black;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+/* CSS3 Mode */
+.BvStartbuttonRounded,
+.BvStartbuttonRoundedOver,
+.BvStartbuttonRoundedFocused,
+.BvStartbuttonRoundedFocusedOver,
+.BvStartbuttonRoundedDown,
+.BvStartbuttonRoundedFocusedDown,
+.BvStartbuttonRoundedSelected,
+.BvStartbuttonRoundedSelectedFocused,
+.BvStartbuttonRoundedSelectedDown,
+.BvStartbuttonRoundedSelectedFocusedDown,
+.BvStartbuttonRoundedSelectedOver,
+.BvStartbuttonRoundedSelectedFocusedOver,
+.BvStartbuttonRoundedDisabled,
+.BvStartbuttonRoundedSelectedDisabled {
+    background-color: #f0f0f0;
+    background-image: url("./images/cssButton/button_stretch.png");
+    background-repeat: repeat-x;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2UwZTBlMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #e0e0e0));
+    background-image: -webkit-linear-gradient(top, #ffffff 0%, #e0e0e0 100%);
+    background-image: -moz-linear-gradient(top, #ffffff 0%, #e0e0e0 100%);
+    background-image: -o-linear-gradient(top, #ffffff 0%, #e0e0e0 100%);
+    background-image: linear-gradient(top, #ffffff 0%, #e0e0e0 100%);
+    border: 1px solid #b15a59;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11px;
+    padding: 0 3px;
+}
+
+/* CSS3 Mode */
+.BvStartbuttonRounded {
+    border: 1px solid #ababab;
+    -webkit-box-shadow: inset white 0 -1px 1px, inset white -1px 0 1px, inset white 1px 0 1px;
+    -moz-box-shadow: inset white 0 -1px 1px, inset white -1px 0 1px, inset white 1px 0 1px;
+    box-shadow: inset white 0 -1px 1px, inset white -1px 0 1px, inset white 1px 0 1px;
+}
+
+/* CSS3 Mode */
+.BvStartbuttonRoundedDisabled {
+    background-color: #e8e8e8;
+    background-image: url("./images/cssButton/button_Disabled_stretch.png");
+    background-repeat: repeat-x;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YwZjBmMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f0f0f0));
+    background-image: -webkit-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+    background-image: -moz-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+    background-image: -o-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+    background-image: linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+    border-bottom: 1px solid #c9b6b6;
+    border-left: 1px solid #ababab;
+    border-right: 1px solid #ababab;
+    border-top: 1px solid #bfbfbf;
+}
+
+.BvStartbuttonDisabled {
+    background-color: #e8e8e8;
+    background-image: url("./images/cssButton/button_Disabled_stretch.png");
+    background-repeat: repeat-x;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YwZjBmMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f0f0f0));
+    background-image: -webkit-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+    background-image: -moz-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+    background-image: -o-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+    background-image: linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+    border-bottom: 1px solid #c9b6b6;
+    border-left: 1px solid #ababab;
+    border-right: 1px solid #ababab;
+    border-top: 1px solid #bfbfbf;
+}
+
+.BvStartbuttonDisabled,
+.BvStartbuttonSelectedDisabled {
+    color: #ababab;
+    font-weight: normal;
+}
+
+/* CSS3 Mode */
+.BvStartbuttonRoundedDisabled,
+.BvStartbuttonRoundedSelectedDisabled {
+    color: #ababab;
+    font-weight: normal;
+}
+
+.BvStartbuttonFocused,
+.BvStartbuttonFocusedOver,
+.BvStartbuttonSelectedFocused,
+.BvStartbuttonSelectedFocusedOver,
+.BvStartbuttonSelectedFocusedDown {
+    border: 1px solid #ababab;
+}
+
+/* CSS3 Mode */
+.BvStartbuttonRoundedFocused,
+.BvStartbuttonRoundedFocusedOver,
+.BvStartbuttonRoundedSelectedFocused,
+.BvStartbuttonRoundedSelectedFocusedOver,
+.BvStartbuttonRoundedSelectedFocusedDown {
+    border: 1px solid #ababab;
+}
+
+.BvStartbuttonOver,
+.BvStartbuttonFocusedOver,
+.BvStartbuttonSelectedFocused,
+.BvStartbuttonSelectedFocusedOver {
+    background-color: #b4d4fd;
+    background-image: url("./images/cssButton/button_Over_stretch.png");
+    background-repeat: repeat-x;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YwZjhmZiIvPjxzdG9wIG9mZnNldD0iNTIlIiBzdG9wLWNvbG9yPSIjZGVlZmZjIi8+PHN0b3Agb2Zmc2V0PSI1NyUiIHN0b3AtY29sb3I9IiNjOWUzZmQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiN2Q3ZjUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f0f8ff), color-stop(52%, #deeffc), color-stop(57%, #c9e3fd), color-stop(100%, #b7d7f5));
+    background-image: -webkit-linear-gradient(top, #f0f8ff 0%, #deeffc 52%, #c9e3fd 57%, #b7d7f5 100%);
+    background-image: -moz-linear-gradient(top, #f0f8ff 0%, #deeffc 52%, #c9e3fd 57%, #b7d7f5 100%);
+    background-image: -o-linear-gradient(top, #f0f8ff 0%, #deeffc 52%, #c9e3fd 57%, #b7d7f5 100%);
+    background-image: linear-gradient(top, #f0f8ff 0%, #deeffc 52%, #c9e3fd 57%, #b7d7f5 100%);
+    border: 1px solid #858585;
+}
+
+/* CSS3 Mode */
+.BvStartbuttonRoundedOver,
+.BvStartbuttonRoundedFocusedOver,
+.BvStartbuttonRoundedSelectedFocused,
+.BvStartbuttonRoundedSelectedFocusedOver {
+    background-color: #b4d4fd;
+    background-image: url("./images/cssButton/button_Over_stretch.png");
+    background-repeat: repeat-x;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VkZjZmZCIvPjxzdG9wIG9mZnNldD0iMTElIiBzdG9wLWNvbG9yPSIjZmFmZWZmIi8+PHN0b3Agb2Zmc2V0PSIyMiUiIHN0b3AtY29sb3I9IiNmYWZlZmYiLz48c3RvcCBvZmZzZXQ9IjM5JSIgc3RvcC1jb2xvcj0iI2YwZmFmZiIvPjxzdG9wIG9mZnNldD0iOTQlIiBzdG9wLWNvbG9yPSIjYzJlMGZmIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYzhlNGZlIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #edf6fd), color-stop(11%, #fafeff), color-stop(22%, #fafeff), color-stop(39%, #f0faff), color-stop(94%, #c2e0ff), color-stop(100%, #c8e4fe));
+    background-image: -webkit-linear-gradient(top, #edf6fd 0%, #fafeff 11%, #fafeff 22%, #f0faff 39%, #c2e0ff 94%, #c8e4fe 100%);
+    background-image: -moz-linear-gradient(top, #edf6fd 0%, #fafeff 11%, #fafeff 22%, #f0faff 39%, #c2e0ff 94%, #c8e4fe 100%);
+    background-image: -o-linear-gradient(top, #edf6fd 0%, #fafeff 11%, #fafeff 22%, #f0faff 39%, #c2e0ff 94%, #c8e4fe 100%);
+    background-image: linear-gradient(top, #edf6fd 0%, #fafeff 11%, #fafeff 22%, #f0faff 39%, #c2e0ff 94%, #c8e4fe 100%);
+    -webkit-box-shadow: inset #d8eafd 0 -1px 1px, inset #d8eafd -1px 0 1px, inset #d8eafd 1px 0 1px;
+    -moz-box-shadow: inset #d8eafd 0 -1px 1px, inset #d8eafd -1px 0 1px, inset #d8eafd 1px 0 1px;
+    box-shadow: inset #d8eafd 0 -1px 1px, inset #d8eafd -1px 0 1px, inset #d8eafd 1px 0 1px;
+    border: 1px solid #858585;
+}
+
+.BvStartbuttonDown,
+.BvStartbuttonFocusedDown,
+.BvStartbuttonSelectedDown,
+.BvStartbuttonSelectedFocusedDown {
+    background-color: #bdddff;
+    background-image: url("./images/cssButton/button_Down_stretch.png");
+    background-repeat: repeat-x;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FkZGJmNSIvPjxzdG9wIG9mZnNldD0iNSUiIHN0b3AtY29sb3I9IiNhZGRiZjUiLz48c3RvcCBvZmZzZXQ9IjEwJSIgc3RvcC1jb2xvcj0iI2MzZTFmNCIvPjxzdG9wIG9mZnNldD0iMTQlIiBzdG9wLWNvbG9yPSIjZTJlY2YzIi8+PHN0b3Agb2Zmc2V0PSIxOSUiIHN0b3AtY29sb3I9IiNmMWYyZjMiLz48c3RvcCBvZmZzZXQ9IjI5JSIgc3RvcC1jb2xvcj0iI2YxZjJmMyIvPjxzdG9wIG9mZnNldD0iODElIiBzdG9wLWNvbG9yPSIjYzFkZGY2Ii8+PHN0b3Agb2Zmc2V0PSI5NSUiIHN0b3AtY29sb3I9IiM5MmNlZjciLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5MmNlZjciLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #addbf5), color-stop(5%, #addbf5), color-stop(10%, #c3e1f4), color-stop(14%, #e2ecf3), color-stop(19%, #f1f2f3), color-stop(29%, #f1f2f3), color-stop(81%, #c1ddf6), color-stop(95%, #92cef7), color-stop(100%, #92cef7));
+    background-image: -webkit-linear-gradient(top, #addbf5 0%, #addbf5 5%, #c3e1f4 10%, #e2ecf3 14%, #f1f2f3 19%, #f1f2f3 29%, #c1ddf6 81%, #92cef7 95%, #92cef7 100%);
+    background-image: -moz-linear-gradient(top, #addbf5 0%, #addbf5 5%, #c3e1f4 10%, #e2ecf3 14%, #f1f2f3 19%, #f1f2f3 29%, #c1ddf6 81%, #92cef7 95%, #92cef7 100%);
+    background-image: -o-linear-gradient(top, #addbf5 0%, #addbf5 5%, #c3e1f4 10%, #e2ecf3 14%, #f1f2f3 19%, #f1f2f3 29%, #c1ddf6 81%, #92cef7 95%, #92cef7 100%);
+    background-image: linear-gradient(top, #addbf5 0%, #addbf5 5%, #c3e1f4 10%, #e2ecf3 14%, #f1f2f3 19%, #f1f2f3 29%, #c1ddf6 81%, #92cef7 95%, #92cef7 100%);
+    border: 1px solid #597db1;
+}
+
+/* CSS3 Mode */
+.BvStartbuttonRoundedDown,
+.BvStartbuttonRoundedFocusedDown,
+.BvStartbuttonRoundedSelectedDown,
+.BvStartbuttonRoundedSelectedFocusedDown {
+    background-color: #bdddff;
+    background-image: url("./images/cssButton/button_Down_stretch.png");
+    background-repeat: repeat-x;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YxZjJmMyIvPjxzdG9wIG9mZnNldD0iNDElIiBzdG9wLWNvbG9yPSIjZjFmMmYzIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYjFkN2Y2Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f1f2f3), color-stop(41%, #f1f2f3), color-stop(100%, #b1d7f6));
+    background-image: -webkit-linear-gradient(top, #f1f2f3 0%, #f1f2f3 41%, #b1d7f6 100%);
+    background-image: -moz-linear-gradient(top, #f1f2f3 0%, #f1f2f3 41%, #b1d7f6 100%);
+    background-image: -o-linear-gradient(top, #f1f2f3 0%, #f1f2f3 41%, #b1d7f6 100%);
+    background-image: linear-gradient(top, #f1f2f3 0%, #f1f2f3 41%, #b1d7f6 100%);
+    -webkit-box-shadow: inset 0 1px 2px #a0d5f3, inset 0 -1px 2px #a0d5f3, inset 2px 0 2px #a0d5f3, inset -2px 0 2px #a0d5f3;
+    -moz-box-shadow: inset 0 1px 2px #a0d5f3, inset 0 -1px 2px #a0d5f3, inset 2px 0 2px #a0d5f3, inset -2px 0 2px #a0d5f3;
+    box-shadow: inset 0 1px 2px #a0d5f3, inset 0 -1px 2px #a0d5f3, inset 2px 0 2px #a0d5f3, inset -2px 0 2px #a0d5f3;
+    border: 1px solid #597db1;
+}
+
+.BvStartbuttonSelected,
+.BvStartbuttonSelectedFocused,
+.BvStartbuttonSelectedOver,
+.BvStartbuttonSelectedFocusedOver,
+.BvStartbuttonSelectedDisabled {
+    background-color: #b4d4fd;
+    background-image: url("./images/cssButton/button_Over_stretch.png");
+    background-repeat: repeat-x;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YwZjhmZiIvPjxzdG9wIG9mZnNldD0iNTIlIiBzdG9wLWNvbG9yPSIjZGVlZmZjIi8+PHN0b3Agb2Zmc2V0PSI1NyUiIHN0b3AtY29sb3I9IiNjOWUzZmQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiN2Q3ZjUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f0f8ff), color-stop(52%, #deeffc), color-stop(57%, #c9e3fd), color-stop(100%, #b7d7f5));
+    background-image: -webkit-linear-gradient(top, #f0f8ff 0%, #deeffc 52%, #c9e3fd 57%, #b7d7f5 100%);
+    background-image: -moz-linear-gradient(top, #f0f8ff 0%, #deeffc 52%, #c9e3fd 57%, #b7d7f5 100%);
+    background-image: -o-linear-gradient(top, #f0f8ff 0%, #deeffc 52%, #c9e3fd 57%, #b7d7f5 100%);
+    background-image: linear-gradient(top, #f0f8ff 0%, #deeffc 52%, #c9e3fd 57%, #b7d7f5 100%);
+    border: 1px solid #858585;
+}
+
+/* CSS3 Mode */
+.BvStartbuttonRoundedSelected,
+.BvStartbuttonRoundedSelectedFocused,
+.BvStartbuttonRoundedSelectedOver,
+.BvStartbuttonRoundedSelectedFocusedOver,
+.BvStartbuttonRoundedSelectedDisabled {
+    background-color: #b4d4fd;
+    background-image: url("./images/cssButton/button_Over_stretch.png");
+    background-repeat: repeat-x;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VkZjZmZCIvPjxzdG9wIG9mZnNldD0iMTElIiBzdG9wLWNvbG9yPSIjZmFmZWZmIi8+PHN0b3Agb2Zmc2V0PSIyMiUiIHN0b3AtY29sb3I9IiNmYWZlZmYiLz48c3RvcCBvZmZzZXQ9IjM5JSIgc3RvcC1jb2xvcj0iI2YwZmFmZiIvPjxzdG9wIG9mZnNldD0iOTQlIiBzdG9wLWNvbG9yPSIjYzJlMGZmIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYzhlNGZlIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #edf6fd), color-stop(11%, #fafeff), color-stop(22%, #fafeff), color-stop(39%, #f0faff), color-stop(94%, #c2e0ff), color-stop(100%, #c8e4fe));
+    background-image: -webkit-linear-gradient(top, #edf6fd 0%, #fafeff 11%, #fafeff 22%, #f0faff 39%, #c2e0ff 94%, #c8e4fe 100%);
+    background-image: -moz-linear-gradient(top, #edf6fd 0%, #fafeff 11%, #fafeff 22%, #f0faff 39%, #c2e0ff 94%, #c8e4fe 100%);
+    background-image: -o-linear-gradient(top, #edf6fd 0%, #fafeff 11%, #fafeff 22%, #f0faff 39%, #c2e0ff 94%, #c8e4fe 100%);
+    background-image: linear-gradient(top, #edf6fd 0%, #fafeff 11%, #fafeff 22%, #f0faff 39%, #c2e0ff 94%, #c8e4fe 100%);
+    -webkit-box-shadow: inset #d8eafd 0 -1px 1px, inset #d8eafd -1px 0 1px, inset #d8eafd 1px 0 1px;
+    -moz-box-shadow: inset #d8eafd 0 -1px 1px, inset #d8eafd -1px 0 1px, inset #d8eafd 1px 0 1px;
+    box-shadow: inset #d8eafd 0 -1px 1px, inset #d8eafd -1px 0 1px, inset #d8eafd 1px 0 1px;
+    border: 1px solid #858585;
+}
+
+/* ImgButton */
+.imgButton,
+.imgButtonOver,
+.imgButtonSelected,
+.imgButtonSelectedDisabled,
+.imgButtonSelectedOver,
+.imgButtonDown,
+.imgButtonSelectedDown,
+.imgButtonDisabled {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11px;
+}
+
+.imgButtonDisabled {
+    color: #666666;
+}
+
+/* StretchImgButton */
+.stretchImgButton,
+.stretchImgButtonSelected,
+.stretchImgButtonSelectedOver,
+.stretchImgButtonOver,
+.stretchImgButtonDown,
+.stretchImgButtonSelectedDown,
+.stretchImgButtonSelectedDisabled,
+.stretchImgButtonDisabled {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11px;
+}
+
+.stretchImgButtonOver {
+    font-weight: normal;
+}
+
+.stretchImgButtonSelectedDisabled,
+.stretchImgButtonDisabled {
+    color: #ababab;
+    font-weight: normal;
+}
+
+/* Button Title */
+.BvStartbuttonTitle,
+.BvStartbuttonTitleOver,
+.BvStartbuttonTitleDown,
+.BvStartbuttonTitleSelected,
+.BvStartbuttonTitleFocused,
+.BvStartbuttonTitleSelectedFocused,
+.BvStartbuttonTitleSelectedOver,
+.BvStartbuttonTitleFocusedOver,
+.BvStartbuttonTitleSelectedFocusedOver,
+.BvStartbuttonTitleSelectedDown,
+.BvStartbuttonTitleFocusedDown,
+.BvStartbuttonTitleSelectedFocusedDown,
+.BvStartbuttonTitleDisabled,
+.BvStartbuttonTitleSelectedDisabled {
+    color: black;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11px;
+}
+
+.BvStartbuttonTitleDisabled,
+.BvStartbuttonTitleSelectedDisabled {
+    color: #ababab;
+    font-weight: normal;
+}
